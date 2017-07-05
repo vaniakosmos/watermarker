@@ -133,7 +133,7 @@ def main():
     for (dir_path, dir_names, file_names) in os.walk(images_path):
         for file_name in file_names:
             if not (str(file_name).endswith('.jpg') or
-                    str(file_name).endswith('.jepg') or
+                    str(file_name).endswith('.jpeg') or
                     str(file_name).endswith('.png')):
                 continue
 

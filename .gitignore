@@ -2,3 +2,9 @@
 *.otf
 
 tester.py
+
+*.png
+
+*.jpg
+
+images/.done.txt
